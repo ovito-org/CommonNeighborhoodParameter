@@ -7,12 +7,10 @@ An [OVITO modifier](https://docs.ovito.org/reference/pipelines/modifiers/python_
 The CNP is a scalar measure used for the structural characterization of atomistic simulations.
 See the following publication for details:
 
-  Helio Tsuzuki, Paulo S. Branicio, José P. Rino,
-  Structural characterization of deformed crystals by analysis of common atomic neighborhood,
-  Computer Physics Communications,
-  Volume 177, Issue 6, 2007,
-  Pages 518-523,
-  https://doi.org/10.1016/j.cpc.2007.05.018
+  > Helio Tsuzuki, Paulo S. Branicio, José P. Rino,  
+  > *Structural characterization of deformed crystals by analysis of common atomic neighborhood*,  
+  > Computer Physics Communications (2007), Volume 177, Issue 6, Pages 518-523,  
+  > [https://doi.org/10.1016/j.cpc.2007.05.018](https://doi.org/10.1016/j.cpc.2007.05.018)
 
 ## Parameters 
 
