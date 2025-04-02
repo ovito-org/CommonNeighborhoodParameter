@@ -37,8 +37,11 @@ See the following publication for details:
   ```
 
 ## Technical information / dependencies
+
 - Tested on OVITO version 3.12.0
 
 ## Contact
+
+OVITO Team support@ovito.org
+
 Paulo Branicio branicio@usc.edu
-OVITO Support Team support@ovito.org
