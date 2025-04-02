@@ -3,13 +3,13 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "[[PackageName]]"
-version = "[[Version number]]"
-description = "[[Short description]]"
+name = "CommonNeighborhoodParameter"
+version = "1.0.0"
+description = "An OVITO modifier computing the common neighborhood parameter (CNP) for each particle in a simulation"
 keywords = ["ovito", "ovito-extension"]
-authors = [{name = "[[Author 1 name]]", email = "[[Author 1 email]]"}, {name = "[[Author 2 name]]", email = "[[Author 2 email]]"}]
-maintainers = [{name = "[[Maintainer 1 name]]", email = "[[Maintainer 1 email]]"}]
-license = {text = "[[License]]"}
+authors = [{name = "Alexander Stukowski", email = "stukowski@ovito.org"}, {name = "Paulo Branicio", email = "branicio@usc.edu"}]
+maintainers = [{name = "Alexander Stukowski", email = "stukowski@ovito.org"}, {name = "Paulo Branicio", email = "branicio@usc.edu"}]
+license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
@@ -17,10 +17,10 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "[[Repository Link]]"
+repository = "https://github.com/ovito-org/CommonNeighborhoodParameter"
 
 [project.entry-points.'OVITO.Modifier']
-"[[Human readable modifier name]]" = "[[PackageName]]:[[ModifierName]]"
+"Common Neighborhood Parameter" = "CommonNeighborhoodParameter:CommonNeighborhoodParameterModifier"
 
 [tool.setuptools.packages.find]
 where = ["src"]
